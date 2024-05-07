@@ -1,0 +1,59 @@
+* {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: Monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+
+}
+
+/*welcome section*/
+
+.welcomeText {
+    line-height: 1.2rem;
+}
+
+#asciiLogo {
+    color: lightblue;
+}
+
+/*user input sectino*/
+
+.termInp {
+    margin: 0px 20px 0 20px;
+}
+
+#termForm {
+    display: flex;
+    align-items: center;
+    padding: 5px 0 5px 0;
+}
+
+#usrname {
+    display: inline;
+    color: greenyellow;
+    padding: 0;
+    margin: 0;
+}
+
+#usrInput {
+    width: 100%;
+    height: 16px;
+    font-family: Monospace;
+    font-size: 16px;
+    font-weight: 400;
+    
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0px 10px 0px 10px;
+    background-color: transparent;
+    /*color: white;*/
+
+    overflow: hidden;
+    resize: none;
+
+}
